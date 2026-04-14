@@ -27,6 +27,7 @@ const navLinks = [
 	{ num: "05.", label: "contact", path: "/contact" },
 ];
 
+
 const Root = () => {
 	const router = useRouterState();
 	const currentPath = router.location.pathname;

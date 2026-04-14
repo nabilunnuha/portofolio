@@ -142,11 +142,12 @@ const CodeSnippet = ({ name, role, coffee, stacks }: CodeSnippetProps) => {
 		</motion.div>
 	);
 };
+const appName = import.meta.env.VITE_APP_NAME;
 
 const IndexPage = () => {
 	const { data: profile, isLoading, isError } = useProfile();
 
-	useDocumentTitle(`Portfolio | ${profile?.name ?? "nabilunnuha"}`);
+	useDocumentTitle(`${appName}`);
 
 	if (isError) {
 		return (
