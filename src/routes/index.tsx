@@ -146,7 +146,6 @@ const appName = import.meta.env.VITE_APP_NAME;
 
 const IndexPage = () => {
 	const { data: profile, isLoading, isError } = useProfile();
-
 	useDocumentTitle(`${appName}`);
 
 	if (isError) {
