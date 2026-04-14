@@ -13,7 +13,7 @@
 
 This is my personal portfolio website — a place to share who I am, what I build, and the technologies I work with. I'm a **Self-taught Full Stack Developer** since 2021, specializing in **Python** and **TypeScript**. The site covers my background, skills, and projects across the full stack.
 
-- 🔗 **Live site:** [nabilunnuha.vercel.app](https://nabilunnuha.vercel.app)
+- 🔗 **Live sites:** [Netlify](https://nabilunnuha.netlify.app/) | [Vercel](https://portofolio-puce-ten-25.vercel.app/)
 - 💼 **LinkedIn:** [linkedin.com/in/nabilunnuha](https://linkedin.com/in/nabilunnuha)
 - 🐙 **GitHub:** [github.com/nabilunnuha](https://github.com/nabilunnuha)
 - 📧 **Email:** nabilunnuha@gmail.com
