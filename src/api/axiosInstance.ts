@@ -1,11 +1,14 @@
 import axios from 'axios';
 
+const apiUrl = import.meta.env.VITE_API_URL;
+const apiTimeout = import.meta.env.VITE_API_TIMEOUT;
+
 const axiosInstance = axios.create({
-  baseURL: 'https://raw.githubusercontent.com/nabilunnuha/portofolio-data/main',
-  timeout: 10000,
-  headers: {
-    'Content-Type': 'application/json',
-  },
+	baseURL: apiUrl,
+	timeout: Number(apiTimeout),
+	headers: {
+		"Content-Type": "application/json",
+	},
 });
 
 axiosInstance.interceptors.response.use(
